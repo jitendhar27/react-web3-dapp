@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+npm-debug.log
+
+# Build outputs
+backend/build/
+frontend/build/
+
+# Environment files
+*.env
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+
+# Truffle artifacts
+backend/.openzeppelin/

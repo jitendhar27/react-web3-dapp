@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "test-contract.js",
+  "type": "commonjs",
+  "scripts": {
+    "test:ganache": "node test-ganache.js",
+    "test:contract": "node test-contract.js",
+    "migrate": "npx truffle migrate --reset --network development"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "truffle": "^5.11.5",
+    "web3": "^1.10.0"
+  }
+}
